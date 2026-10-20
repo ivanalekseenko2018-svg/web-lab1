@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+header nav ul{
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: #18bc9c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+header nav ul li a:hover {
+    color:white;
+}
+
+main {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+main h2, main h3 {
+    color: #2c3e50; 
+    margin-top: 40px; 
+}
+
+.bio-img {
+    float: left; 
+    margin-right: 25px; 
+    margin-bottom: 15px; 
+    border-radius: 8px; 
+    max-width: 300px; 
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #bdc3c7; 
+    padding: 12px; 
+    text-align: left; 
+}
+
+th {
+    background-color: #ecf0f1; 
+    color: #2c3e50;
+}
+
+.registration-form {
+   background-color: #b3d4ff;
+   border: 1px dashed #666;
+   padding: 20px;
+   margin: 20px auto;
+   width: 80%;
+   max-width: 800px;
+}
+.registration-form label {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.registration-form input, 
+.registration-form select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+.column {
+    flex: 1;
+}
+
+.column input[type="text"],
+.column input[type="number"],
+.column input[type="date"],
+.column input[type="tel"],
+.column input[type="url"],
+.column input[type="email"],
+.column input[type="password"],
+.column select,
+.column textarea {
+    width: 100%;
+    box-sizing: border-box; 
+    margin-bottom: 10px; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+.column select:invalid {
+    color: #757575; 
+}
+.column select option {
+    color: black;
+}
+
+.login-form {
+    background-color: hsl(120, 100%, 95%);
+    border: 1px dashed #666;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+}
+.login-form input[type="email"],
+.login-form input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+/* Об'єднані стилі кнопки */
+.login-form button {
+    display: block; 
+    margin: 0 auto;
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: #18bc9c; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.login-form button:hover {
+    background-color: #128f76; 
+}
+
+.feedback-form {
+    background-color: hsl(60, 17%, 98%);
+    border: 1px dashed #666;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+.feedback-form label {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.simple-photo {
+    margin: 15px; 
+    border: 3px solid #2c3e50; 
+    border-radius: 5px; 
+}
